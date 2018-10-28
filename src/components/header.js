@@ -15,6 +15,26 @@ const HeaderContainer = styled.div`
   margin: 0 auto;
   max-width: 960px;
   padding: 1.45rem 1.0875rem;
+  display: flex;
+  justify-content: space-between;
+`;
+
+const MainNav = styled.nav`
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      margin-left: 10px;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      a {
+        text-decoration: none;
+        color: #FFFFFF;
+        &:hover {
+          border-bottom: 3px solid #FFFFFF;
+        }
+      }
+    }
+  }
 `;
 
 const Header = ({ siteTitle }) => (
@@ -31,7 +51,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-    <nav>
+    <MainNav>
       <ul>
         <li>
           <Link to="/about">About</Link>
@@ -40,7 +60,7 @@ const Header = ({ siteTitle }) => (
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
-    </nav>
+    </MainNav>
     </HeaderContainer>
   </HeaderWrapper>
 )
