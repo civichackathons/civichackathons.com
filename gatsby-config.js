@@ -10,11 +10,18 @@ module.exports = {
     // transforms these to create new “ImageSharp” nodes.
     // With them you can resize images and
     // generate responsive image thumbnails.
-    `gatsby-transformer-sharp`,
+    // `gatsby-transformer-sharp`,
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `img`,
+    //     path: `${__dirname}/src/images`
+    //   }
+    // },
     // This plugin exposes helper functions for processing
     // images with the NPM package “sharp”. It's used by
     // several other plugins.
-    `gatsby-plugin-sharp`,
+    // `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
