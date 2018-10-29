@@ -9,7 +9,7 @@ This repository contains the source code for the website civichackathons.com. Th
 * [Node.js](https://nodejs.org/en/)
 
 ### Developing
-1. Navigate to the civichackathons-site directory
+1. Navigate to the civichackathons.com directory
 2. Run `gatsby develop`
 
 Watch changes at http://localhost:8000/
