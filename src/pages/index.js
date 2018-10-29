@@ -1,14 +1,12 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
 
-import Layout from '../components/layout'
+import Layout from '../components/layout';
+import bg from '../images/bg.jpg';
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div><img src={bg} alt="" /></div>
+    <h1>Learn how to run a successful civic hackathon</h1>
   </Layout>
 )
 
