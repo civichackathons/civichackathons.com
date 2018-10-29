@@ -54,6 +54,9 @@ const Header = ({ siteTitle }) => (
     <MainNav>
       <ul>
         <li>
+          <a href="https://guide.civichackathons.com/">Guide</a>
+        </li>
+        <li>
           <Link to="/about">About</Link>
         </li>
         <li>
